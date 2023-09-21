@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ML App</title>
+    </head>
+    
+    <body>
+        <form name="form" method="POST" action="/upload" enctype="multipart/form-data" style="text-align: center;">
+            <br>
+            Image: <input type="file" name="file">
+            <button type="Submit">Run</button>
+        </form>
+        <p style="text-align: center;">{{ output }}</p>
+    </body>
+</html>
