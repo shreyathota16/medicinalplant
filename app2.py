@@ -48,7 +48,7 @@ train_generator = train_datagen.flow_from_directory(
 
 def predict_plant(file_path):
     # Load the model
-    model = tf.keras.models.load_model('plant_classification_model.h5')
+    model = tf.keras.models.load_model('C:/sih/proj2/plant_classification_model.h5')
 
     test_image_path = file_path
 
